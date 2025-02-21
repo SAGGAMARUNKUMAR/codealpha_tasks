@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Saggam Arun Kumar | Portfolio</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        section {
+            padding-top: 80px; /* Adjust this value based on the height of your navigation bar */
+            margin-top: -80px; /* Adjust this value based on the height of your navigation bar */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Saggam <span>Arun Kumar</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#projects">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="image.jpg" alt="Saggam Arun Kumar">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Saggam Arun Kumar</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm an <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Aspiring Software Engineer | AI & ML Enthusiast</p>
+                <div class="social-links">
+                    <a href="https://github.com/SAGGAMARUNKUMAR" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/saggam-arun-1b303925a" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <button>Hire me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Seeking an entry-level opportunity with an esteemed organization where I can utilize my skills and enhance learning in the field of work. Capable of mastering new technologies.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Details</h2>
+        <p>Email: <a href="mailto:saggamarun7@gmail.com">saggamarun7@gmail.com</a></p>
+        <p>Phone: +91 9652684332</p>
+        <p>GitHub: <a href="https://github.com/SAGGAMARUNKUMAR">SAGGAMARUNKUMAR</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/saggam-arun-1b303925a">Arun Kumar</a></p>
+        <p>Address: 5-3-307, Shanthinagar, Zaheerabad</p>
+    </section>
+
+    <section id="personal-info">
+        <h2>Personal Information</h2>
+        <p>Date of Birth: 16-09-2003</p>
+        <p>Languages Known: English, Telugu, Hindi</p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>MySQL</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>MS Excel</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>QR-Code Pixelated Antenna with Multi-Factor Authentication: Implemented using Django for Wireless and Security Applications.</li>
+            <li>EEG-Based Human Emotion Recognition: Leveraged Deep Learning techniques with Django framework.</li>
+            <li>Snake Game Development: Built an interactive game using Python.</li>
+            <li>Currency Converter Web Application: Developed a responsive web app using JavaScript.</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>B.Tech in Computer Science and Engineering (AI & ML): Indur Institute of Engineering and Technology (2022-2025) | GPA: 7.0</li>
+            <li>Diploma in Automobile Engineering: Sri Sangameshwara Govt. Polytechnic College (2019-2022) | GPA: 8.85</li>
+            <li>SSC (High School): Adarsh Vidyalaya High School (2019) | GPA: 9.2</li>
+        </ul>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>TCS iON Career Edge - Young Professional Certification (TCS ION)</li>
+            <li>Python for Beginners (Simplilearn)</li>
+            <li>Introduction to Cloud Computing (Simplilearn)</li>
+            <li>Power BI for Beginners (Simplilearn)</li>
+            <li>Git Training Certification (Simplilearn)</li>
+            <li>AI Tools & ChatGPT Workshop (BE10X)</li>
+        </ul>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements & Workshops</h2>
+        <ul>
+            <li>Internship Certificate from InternPE</li>
+            <li>Offer Letter from InternPE</li>
+            <li>CyberSecurity & Ethical Hacking Workshop (TEKNTEKI)</li>
+            <li>International Workshop on Data Science Using Python (Brain O Vision)</li>
+        </ul>
+    </section>
+
+    <footer>
+        <h2>Portfolio Links</h2>
+        <p>GitHub: <a href="https://github.com/SAGGAMARUNKUMAR">SAGGAMARUNKUMAR</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/saggam-arun-1b303925a">Arun Kumar</a></p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script>
+        function hamburg(){
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(0px)"
+        }
+        function cancel(){
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(-500px)"
+        }
+        // Typewriter Effect
+        const texts = [
+            "DEVELOPER",
+            "DESIGNER"
+        ]
+        let speed  =100;
+        let textIndex = 0;
+        let charcterIndex = 0;
+        const textElements = document.querySelector(".typewriter-text");
+        function typeWriter(){
+            if (charcterIndex < texts[textIndex].length){
+                textElements.innerHTML += texts[textIndex].charAt(charcterIndex);
+                charcterIndex++;
+                setTimeout(typeWriter, speed);
+            }
+            else{
+                setTimeout(eraseText, 1000)
+            }
+        }
+        function eraseText(){
+            if(textElements.innerHTML.length > 0){
+                textElements.innerHTML = textElements.innerHTML.slice(0,-1);
+                setTimeout(eraseText, 50)
+            }
+            else{
+                textIndex = (textIndex + 1) % texts.length;
+                charcterIndex = 0;
+                setTimeout(typeWriter, 500)
+            }
+        }
+        window.onload = typeWriter;
+    </script>
+</body>
+</html>
